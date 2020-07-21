@@ -52,8 +52,8 @@ cat << EOF >> isolated_atom.in
   smearing = 'mp', 
 /
 &ELECTRONS 
-  mixing_beta=0.2,
-  conv_thr=1.0E-4,
+  mixing_beta=0.3,
+  conv_thr=0.5E-5,
 /
 ATOMIC_SPECIES 
 ${element_name} ${mass} ${upf_name}
