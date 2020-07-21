@@ -16,7 +16,7 @@ PWscf_PBE_PAW_Potentials
 11. sudo make install
 
 
-## Examples (PbSnTe) (PWscf)
+## Run
 1. cd ~
 2. sudo apt update
 3. sudo apt install -y git csh
@@ -42,7 +42,7 @@ PWscf_PBE_PAW_Potentials
 	os.environ['PATH'] = "/content/q-e-qe-6.4.1/bin:"+os.environ['PATH']
 
 
-## Examples (FeCoW, PWscf)
+## Run
 	!apt update
 	!apt install -y git csh
 	%cd /content
